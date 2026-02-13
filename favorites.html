@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Little Favorites 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background stars -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicBtn" class="music-btn" aria-label="Play music">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="photos/New folder/ytmp3free.cc_tera-rastaa-chhodoon-na-lyrical-video-chennai-express-shahrukh-khan-deepika-padukone-youtubemp3free.org.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Intro Text -->
+    <section class="apology-section">
+        <div class="apology-container">
+            <div class="apology-text">
+                <p>Some of your favorites, some of mine… but all of them are <br> special because they have <strong>you</strong> in them. 💕</p>
+                <p>These are tiny pieces of you I keep replaying in my head, over and over, hoping I’ll get to live them again for real.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favorites Section -->
+    <section class="memories-section">
+        <h2 class="memories-title">Your favorites & mine ✨</h2>
+        <div class="memories-gallery">
+            <!-- Favorite 1: Her eyes -->
+            <div class="memory-card">
+                <img src="photos\New folder\WhatsApp Image 2026-02-13 at 5.16.36 PM.jpeg" alt="Your handwriting" class="gallery-photo">
+                <p class="memory-caption">I will never forget When you recited my poetry in your voice</p>
+            </div>
+
+            <!-- Favorite 2: Her note -->
+            <div class="memory-card">
+                <img src="photos\New folder\WhatsApp Image 2026-02-13 at 5.16.36 PM (1).jpeg" alt="Your handwriting" class="gallery-photo">
+                <p class="memory-caption">Your handwriting</p>
+            </div>
+
+            <!-- Favorite 3: Romantic video -->
+            <div class="memory-card">
+                <video class="dream-video" controls>
+                    <source src="photos\WhatsApp Video 2026-02-13 at 1.04.04 PM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="memory-caption">Suno naaaaaaa urrruuuuuuu.....</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Buttons -->
+    <section class="navigation-section">
+        <button class="nav-btn prev-btn" onclick="window.location.href='dreams.html'">
+            <span>← Back</span>
+        </button>
+        <button class="nav-btn next-btn" onclick="window.location.href='forgiveness.html'">
+            <span>Continue... →</span>
+            <div class="btn-glow"></div>
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

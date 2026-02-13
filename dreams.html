@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams I Want With You 💭💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background stars -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicBtn" class="music-btn" aria-label="Play music">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="photos/New folder/ytmp3free.cc_tera-rastaa-chhodoon-na-lyrical-video-chennai-express-shahrukh-khan-deepika-padukone-youtubemp3free.org.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Dreams Intro -->
+    <section class="apology-section">
+        <div class="apology-container">
+            <div class="apology-text">
+                <p>I’m saying it once more: I am so, so sorry. 💔</p>
+                <p>These are some of the dreams I’ve had with you—the ones I truly want to make real.</p>
+                <p>As this envelope opens, please watch these little videos, one by one, with the same softness I feel in my heart for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dreams Videos Section with Envelope -->
+    <section class="memories-section">
+        <h2 class="memories-title">Dreams I Want With You 💭</h2>
+
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+
+                <!-- Video cards sliding out of envelope -->
+                <div class="envelope-content">
+                    <!-- Dream 1 -->
+                    <div class="video-card video-card-1">
+                        <video class="dream-video" controls>
+                            <!-- Local video file inside photos/New folder -->
+                            <source src="photos/New folder/WhatsApp Video 2026-02-13 at 2.35.52 PM.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="memory-caption">A quiet walk with your hand in mine</p>
+                    </div>
+
+                    <!-- Dream 2 -->
+                    <div class="video-card video-card-2">
+                        <video class="dream-video" controls>
+                            <!-- Local romantic dance video -->
+                            <source src="photos/New folder/AI_Romantic_Dance_Video_Creation (online-video-cutter.com).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="memory-caption">Laughing together over silly things</p>
+                    </div>
+                </div>
+            </div>
+            <p class="envelope-hint">Open them one by one, slowly... like reading my heart. 💌</p>
+        </div>
+    </section>
+
+    <!-- Fullscreen Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-backdrop" id="videoModalBackdrop"></div>
+        <div class="video-modal-content">
+            <button class="video-modal-close" id="videoModalClose" aria-label="Close video">✕</button>
+            <video id="videoModalPlayer" controls></video>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <section class="navigation-section">
+        <button class="nav-btn prev-btn" onclick="window.location.href='memories.html'">
+            <span>← Back</span>
+        </button>
+        <button class="nav-btn next-btn" onclick="window.location.href='favorites.html'">
+            <span>Continue... →</span>
+            <div class="btn-glow"></div>
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

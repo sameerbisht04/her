@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sorry Letter to You... 💔</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background stars -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicBtn" class="music-btn" aria-label="Play music">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Sorry Letter Card Section -->
+    <section class="sorry-letter-section">
+        <div class="sorry-letter-card">
+            <!-- Title -->
+            <h1 class="sorry-letter-title">My Sorry Letter to You...</h1>
+            
+            <!-- Crying Bear Image -->
+            <div class="crying-bear-container">
+                <div class="crying-bear-frame">
+                    <div class="crying-bear-wrapper">
+                        <div class="crying-bear">🐻</div>
+                        <div class="bear-face">😢</div>
+                    </div>
+                    <div class="tears">
+                        <span class="tear tear1">💧</span>
+                        <span class="tear tear2">💧</span>
+                        <span class="tear tear3">💧</span>
+                        <span class="tear tear4">💧</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Message Text -->
+            <p class="sorry-letter-message">I've been sitting here for hours, trying to find the right words...</p>
+            
+            <!-- Continue Reading Button -->
+            <button class="continue-reading-btn" onclick="window.location.href='staring.html'">
+                <span>Continue reading...</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+    </section>
+
+    <!-- Navigation Button -->
+    <section class="navigation-section">
+        <button class="nav-btn prev-btn" onclick="window.location.href='talk.html'">
+            <span>← Back</span>
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

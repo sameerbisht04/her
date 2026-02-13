@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Moments 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background stars -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicBtn" class="music-btn" aria-label="Play music">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="photos/New folder/ytmp3free.cc_tera-rastaa-chhodoon-na-lyrical-video-chennai-express-shahrukh-khan-deepika-padukone-youtubemp3free.org.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Photo Memories Gallery -->
+    <section class="memories-section">
+        <h2 class="memories-title">Our Moments 💕</h2>
+        <div class="memories-gallery">
+            <div class="memory-card">
+                <img src="photos/WhatsApp Image 2026-02-13 at 1.04.16 PM.jpeg" alt="My favorite memory" class="gallery-photo">
+                <p class="memory-caption">My favorite memory</p>
+            </div>
+            <div class="memory-card">
+                <img src="photos/WhatsApp Image 2026-02-13 at 1.04.17 PM.jpeg" alt="I miss this day" class="gallery-photo">
+                <p class="memory-caption">I miss this day</p>
+            </div>
+            <div class="memory-card">
+                <img src="photos\WhatsApp Image 2026-02-13 at 1.03.51 PM.jpeg" alt="Memory" class="gallery-photo">
+                <p class="memory-caption">When you smiled</p>
+            </div>
+            <div class="memory-card">
+                <img src="photos\New folder\WhatsApp Image 2026-02-13 at 1.04.17 PM.jpeg" alt="Memory" class="gallery-photo">
+                <p class="memory-caption">Perfect moments</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Buttons -->
+    <section class="navigation-section">
+        <button class="nav-btn prev-btn" onclick="window.location.href='apology.html'">
+            <span>← Back</span>
+        </button>
+        <button class="nav-btn next-btn" onclick="window.location.href='dreams.html'">
+            <span>Continue... →</span>
+            <div class="btn-glow"></div>
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
